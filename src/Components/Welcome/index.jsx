@@ -5,8 +5,8 @@ export default function Welcome() {
     return (
         <section id="welcome" className={styles.welcome}>
             <div>
-                <h1>Alessandro Massarotti Junior</h1>
-                <span>Desenvolvedor Javascript</span>
+                <h1 className={styles.name}>Alessandro Massarotti Junior</h1>
+                <span className={styles.title}>Desenvolvedor Javascript</span>
                 <a className={styles.linkedinButton} href="https://www.linkedin.com/in/alessandro-massarotti-jr-71a68b218/">
                     <Icon className={styles.icon} icon="bi:linkedin" />
                      LinkedIn

@@ -26,7 +26,7 @@ export default function Tecnologies() {
     ]
     return (
         <section id="tecnologies">
-            <h2 className={styles.sectionTitle}>{'<Tecnologias>'}</h2>  
+            <h2 className={styles.sectionTitle}>Tecnologias</h2>  
             <div className={styles.tecnologiesCubes}>
             <AliceCarousel 
             autoPlay={true} 

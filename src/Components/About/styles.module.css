@@ -1,5 +1,28 @@
-.sectionTitle{
+.sectionTitle {
     font-size: 28px;
-    color:#f2f2f2;
+    color: #f2f2f2;
     font-weight: bold;
+}
+
+.aboutContent {
+    display: flex;
+    justify-content: space-around;
+    color: #f2f2f2;
+    padding: 0px 20px;
+}
+
+.aboutText {
+    max-width: 600px;
+}
+
+.aboutText p {
+    margin: 15px 0px;
+    font-size: 20px;
+}
+
+@media(max-width:767px) {
+    .aboutContent {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 }

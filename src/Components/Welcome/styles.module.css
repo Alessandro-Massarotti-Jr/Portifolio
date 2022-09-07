@@ -7,6 +7,14 @@
     padding: 20px 0px;
 }
 
+.name{
+    color: #f2f2f2;
+}
+
+.title{
+    color: #f2f2f2;
+}
+
 .circleContainer__outline1{
     width: 650px;
     height: 650px;
@@ -78,6 +86,7 @@
     align-items: center;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    margin: 7px 0px;
 }
 .linkedinButton .icon{
     margin: 0px 5px;
@@ -99,6 +108,7 @@
     align-items: center;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    margin: 7px 0px;
 }
 
 .githubButton .icon{

@@ -7,7 +7,7 @@ export default function Projects(){
 
     return(
         <section id="projects">
-            <h2 className={style.sectionTitle}>{'<Projects>'}</h2>
+            <h2 className={style.sectionTitle}>Projects</h2>
              <div className={style.projectCardContainer}>
 
                 {projects.map((project)=>{
