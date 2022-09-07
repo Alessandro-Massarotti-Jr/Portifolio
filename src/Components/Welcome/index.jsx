@@ -3,12 +3,18 @@ import styles from "./styles.module.css"
 
 export default function Welcome() {
     return (
-        <section className={styles.welcome}>
+        <section id="welcome" className={styles.welcome}>
             <div>
                 <h1>Alessandro Massarotti Junior</h1>
                 <span>Desenvolvedor Javascript</span>
-                <a href="https://www.linkedin.com/in/alessandro-massarotti-jr-71a68b218/"><Icon icon="bi:linkedin" /> LinkedIn</a>
-                <a href="https://github.com/Alessandro-Massarotti-Jr"><Icon icon="bi:github" /> GitHub</a>
+                <a className={styles.linkedinButton} href="https://www.linkedin.com/in/alessandro-massarotti-jr-71a68b218/">
+                    <Icon className={styles.icon} icon="bi:linkedin" />
+                     LinkedIn
+                     </a>
+                <a className={styles.githubButton} href="https://github.com/Alessandro-Massarotti-Jr">
+                    <Icon className={styles.icon} icon="bi:github" /> 
+                    GitHub
+                    </a>
             </div>
 
             <div className={styles.circleContainer}>

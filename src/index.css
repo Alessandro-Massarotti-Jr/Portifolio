@@ -1,5 +1,9 @@
 @import "react-alice-carousel/lib/alice-carousel.css";
 
+html{
+  scroll-behavior: smooth;
+}
+
 *{
   padding: 0;
   margin: 0;
@@ -9,6 +13,27 @@
 body{
   min-height: 100vh;
   background-color: #232323;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #555555;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #83cd29;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #73b325;
 }
 
 /* carousel */

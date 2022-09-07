@@ -6,7 +6,7 @@ import { projects } from "../../config/projects";
 export default function Projects(){
 
     return(
-        <section>
+        <section id="projects">
             <h2 className={style.sectionTitle}>{'<Projects>'}</h2>
              <div className={style.projectCardContainer}>
 
@@ -14,7 +14,6 @@ export default function Projects(){
                     return <ProjectCard title={project.title} description={project.description} mainColor={project.mainColor} image={project.image} demo={project.demo} repo={project.repo} tecnologyIcon={project.tecnologyIcon}/>
                 })}
              </div>
-            <span className={style.sectionTitle}>{'</Projects>'}</span>
         </section>
     );
 }

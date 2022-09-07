@@ -25,7 +25,7 @@ export default function Tecnologies() {
                 <TecnologyCube image={wordpressIcon} name={'Wordpress'} mainColor={'#003c56'} link={'#'} />
     ]
     return (
-        <section>
+        <section id="tecnologies">
             <h2 className={styles.sectionTitle}>{'<Tecnologias>'}</h2>  
             <div className={styles.tecnologiesCubes}>
             <AliceCarousel 
@@ -51,7 +51,6 @@ export default function Tecnologies() {
             } 
             />
             </div>
-            <span className={styles.sectionTitle}>{'</Tecnologias>'}</span>
         </section>
 
     );

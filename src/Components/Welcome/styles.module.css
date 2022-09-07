@@ -1,9 +1,10 @@
 .welcome{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding: 20px 0px;
 }
 
 .circleContainer__outline1{
@@ -65,6 +66,51 @@
     border-radius: 50%;
     filter: drop-shadow(0px 0px 20px #83cd29);
 }
+
+.linkedinButton{
+    text-decoration: double;
+    border: 3px solid #f2f2f2;
+    color: #f2f2f2;
+    padding: 10px 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.linkedinButton .icon{
+    margin: 0px 5px;
+}
+
+.linkedinButton:hover{
+    background-color: #f2f2f2;
+    color: #0a66c2;
+}
+
+.githubButton{
+    text-decoration: double;
+    border: 3px solid #f2f2f2;
+    color: #f2f2f2;
+    padding: 10px 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.githubButton .icon{
+    margin: 0px 5px;
+}
+
+.githubButton:hover{
+    background-color: #f2f2f2;
+    color: #353535;
+}
+
+
 
 @keyframes outilineRight{
     0% {

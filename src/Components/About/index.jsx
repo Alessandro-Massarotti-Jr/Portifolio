@@ -2,9 +2,8 @@ import styles from "./styles.module.css"
 
 export default function About(){
     return(
-        <section>
+        <section id="about">
             <h2 className={styles.sectionTitle}>{'<About>'}</h2>
-            <span className={styles.sectionTitle}>{'</About>'}</span>
         </section>
     );
 }
