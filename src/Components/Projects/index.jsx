@@ -9,6 +9,7 @@ export default function Projects(){
         <section>
             <h2 className={style.sectionTitle}>{'<Projects>'}</h2>
              <div className={style.projectCardContainer}>
+
                 {projects.map((project)=>{
                     return <ProjectCard title={project.title} description={project.description} mainColor={project.mainColor} image={project.image} demo={project.demo} repo={project.repo} tecnologyIcon={project.tecnologyIcon}/>
                 })}
