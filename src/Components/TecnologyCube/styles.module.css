@@ -1,0 +1,28 @@
+.tecnologyCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.tecnologyCard__cube{
+    width: 100%;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    border-radius: 3px;
+    max-width: 100%;
+    background-color: #272727;
+}
+
+.tecnologyCard__name{
+    width: 100%;
+    text-align: center;
+    padding: 10px 7px;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    color: #f2f2f2;
+    font-size: 18px;
+    text-decoration: none;
+}
