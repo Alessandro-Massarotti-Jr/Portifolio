@@ -1,4 +1,3 @@
-import htmlIcon from "../assets/img/icons/html-icon.svg"
 import jsIcon from "../assets/img/icons/js-icon.svg"
 import nodeIcon from "../assets/img/icons/node-icon.svg"
 import reactIcon from "../assets/img/icons/react-icon.svg"

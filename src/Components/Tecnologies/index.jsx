@@ -18,7 +18,7 @@ export default function Tecnologies() {
             disableButtonsControls={true}
             mouseTracking={true}
             items={tecnologies.map((tecnology)=>{
-                return  <TecnologyCube image={tecnology.image} name={tecnology.name} mainColor={tecnology.mainColor} link={tecnology.link} />;
+                return  <TecnologyCube key={tecnology.name} image={tecnology.image} name={tecnology.name} mainColor={tecnology.mainColor} link={tecnology.link} />;
             })}
             responsive={
                 {

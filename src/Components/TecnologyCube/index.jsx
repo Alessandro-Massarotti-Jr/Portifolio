@@ -35,7 +35,7 @@ export default function TecnologyCube({ image,name,mainColor,link }) {
             </Canvas>
             </div>
            
-            <a href={link} className={styles.tecnologyCard__name} style={{backgroundColor:mainColor}}>{name}</a>
+            <a target="_blank" rel="noreferrer" href={link} className={styles.tecnologyCard__name} style={{backgroundColor:mainColor}}>{name}</a>
         </div>
 
     );

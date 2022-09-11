@@ -13,54 +13,54 @@ export const tecnologies = [
         image:htmlIcon,
         name:"Html",
         mainColor:"#F16529",
-        link:"#"
+        link:"https://developer.mozilla.org/pt-BR/docs/Web/HTML"
     },
     {
         image:cssIcon,
         name:"Css",
         mainColor:"#33A9DC",
-        link:"#"
+        link:"https://developer.mozilla.org/pt-BR/docs/Web/CSS"
     },
     {
         image:jsIcon,
         name:"JavaScript",
         mainColor:"#F0DB4F",
-        link:"#"
+        link:"https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
     },
     {
         image:tsIcon,
         name:"TypeScript",
         mainColor:"#007acc",
-        link:"#"
+        link:"https://www.typescriptlang.org/docs/"
     },
     {
         image:nodeIcon,
         name:"Node.js",
         mainColor:"#83CD29",
-        link:"#"
+        link:"https://nodejs.org/en/docs/"
     },
     {
         image:reactIcon,
         name:"React",
         mainColor:"#61DAFB",
-        link:"#"
+        link:"https://pt-br.reactjs.org/docs/getting-started.html"
     },
     {
         image:phpIcon,
         name:"Php",
         mainColor:"#6181B6",
-        link:"#"
+        link:"https://www.php.net/docs.php"
     },
     {
         image:laravelIcon,
         name:"Laravel",
         mainColor:"#FD4F31",
-        link:"#"
+        link:"https://laravel.com/docs/"
     },
     {
         image:wordpressIcon,
         name:"Wordpress",
         mainColor:"#003c56",
-        link:"#"
+        link:"https://developer.wordpress.org/"
     }
 ]
