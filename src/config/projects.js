@@ -62,12 +62,12 @@ export const projects = [
     },
     {
         title:'Ignite Lab 06/2022',
-        description:"Projeto simples desenvolvido em Javascript para ser um jogo de run and jump",
-        mainColor:'#f5fb09',
-        image:marioGame,
-        demo:'https://alessandro-massarotti-jr.github.io/Mario-game/',
-        repo:"https://github.com/Alessandro-Massarotti-Jr/Mario-game", 
-        tecnologyIcon:jsIcon 
+        description:"Projeto desenvolviddo durante o ignite lab de 06/2022 da Rocketseat com a proposta de ser uma plataforma de eventos utilizando graphCMS como backend para consumir APIs em graphql no frontend",
+        mainColor:'#00875f',
+        image:igniteLab062022,
+        demo:'https://iginite-lab-06-2022.vercel.app/',
+        repo:"https://github.com/Alessandro-Massarotti-Jr/iginite-lab-06-2022", 
+        tecnologyIcon:tsIcon
     },
     {
         title:'Pokedex mapa dev week',
