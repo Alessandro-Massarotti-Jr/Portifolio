@@ -15,6 +15,15 @@ import pokedexMapaDevWeek from "../assets/img/projects/pokedexMapaDevWeek.png"
 
 export const projects = [
     {
+        title:'NLW - ESports',
+        description:"Projeto desenvolvido durante a Next Level week ESports em setembro de 2022",
+        mainColor:'#8B5CF6',
+        image:null,
+        demo:null,
+        repo:'https://github.com/Alessandro-Massarotti-Jr/Next-Level-Week-ESports', 
+        tecnologyIcon:tsIcon
+    },
+    {
         title:'OneBitCode - EverNote',
         description:"Projeto final do curso fullstack javascript OneBitCode com algumas melhorias/alterações",
         mainColor:'#624fd2',
