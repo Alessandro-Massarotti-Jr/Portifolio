@@ -12,13 +12,14 @@ import nlwReturn from "../assets/img/projects/nlwReturn.png"
 import igniteLab062022 from "../assets/img/projects/igniteLab062022.png"
 import pokedexReact from "../assets/img/projects/pokedexReact.png"
 import pokedexMapaDevWeek from "../assets/img/projects/pokedexMapaDevWeek.png"
+import nlwEsports from "../assets/img/projects/nlwEsports.png"
 
 export const projects = [
     {
         title:'NLW - ESports',
         description:"Projeto desenvolvido durante a Next Level week ESports em setembro de 2022",
         mainColor:'#8B5CF6',
-        image:null,
+        image:nlwEsports,
         demo:null,
         repo:'https://github.com/Alessandro-Massarotti-Jr/Next-Level-Week-ESports', 
         tecnologyIcon:tsIcon
