@@ -6,8 +6,8 @@ import { projects } from "../../config/projects";
 export default function Projects(){
 
     return(
-        <section id="projects">
-            <h2 className={style.sectionTitle}>Projects</h2>
+        <section className={style.project} id="projects">
+            <h2 className={style.sectionTitle}>Projetos</h2>
              <div className={style.projectCardContainer}>
 
                 {projects.map((project)=>{

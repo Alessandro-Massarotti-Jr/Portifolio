@@ -45,3 +45,16 @@ color: #83cd29;
     text-align: center;
     font-size: 40px;
 }
+
+.mobileNav{
+    display: none;
+}
+
+@media(max-width:767px){
+    .desktopNav{
+        display: none;
+    }
+    .mobileNav{
+        display: block;
+    }
+}
