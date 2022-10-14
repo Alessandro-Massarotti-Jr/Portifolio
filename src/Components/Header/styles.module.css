@@ -50,6 +50,29 @@ color: #83cd29;
     display: none;
 }
 
+.mobileNav .navLinks{
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.mobileNav__button{
+    text-decoration: none;
+    color: #83cd29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.mobileControls{
+    display: flex;
+    justify-content: space-between;
+}
+
 @media(max-width:767px){
     .desktopNav{
         display: none;

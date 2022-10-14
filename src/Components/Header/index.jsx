@@ -6,10 +6,10 @@ export default function Header() {
 
     const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
 
-    function handleOpenNav(){
-        if(isMobileNavOpen){
+    function handleOpenNav() {
+        if (isMobileNavOpen) {
             setIsMobileNavOpen(false);
-        }else{
+        } else {
             setIsMobileNavOpen(true);
         }
     }
@@ -39,7 +39,17 @@ export default function Header() {
             </nav>
             <div className={styles.mobileNav}>
 
-     <button onClick={handleOpenNav}>Open nav</button>
+                <div className={styles.mobileControls}>
+                    <span className={styles.navIcon}>
+                        <a href="#welcome">
+                            <Icon icon="clarity:node-line" />
+                        </a>
+                    </span>
+                    <button className={styles.mobileNav__button} onClick={handleOpenNav}>
+                        {isMobileNavOpen ? <Icon icon="eva:close-fill" /> : <Icon icon="bx:menu" />}
+                    </button>
+                </div>
+
 
                 {isMobileNavOpen &&
                     <nav>
@@ -49,11 +59,6 @@ export default function Header() {
                             </li>
                             <li className={styles.navLink}>
                                 <a href="#about">Sobre</a>
-                            </li>
-                            <li className={styles.navIcon}>
-                                <a href="#welcome">
-                                    <Icon icon="clarity:node-line" />
-                                </a>
                             </li>
                             <li className={styles.navLink}>
                                 <a href="#tecnologies">Tecnologias</a>
