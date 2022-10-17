@@ -31,7 +31,6 @@ Run `npm run build` to make a production version of the project
 
 `npm install --save-dev @iconify/react`
 
-
 <br>
 
 ---
