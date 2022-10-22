@@ -19,10 +19,10 @@ export default function Header() {
             <nav className={styles.desktopNav}>
                 <ul className={styles.navLinks}>
                     <li className={styles.navLink}>
-                        <a href="#welcome">Home</a>
+                        <a href="#about">Sobre</a>
                     </li>
                     <li className={styles.navLink}>
-                        <a href="#about">Sobre</a>
+                        <a href="#tecnologies">Tecnologias</a>
                     </li>
                     <li className={styles.navIcon}>
                         <a href="#welcome">
@@ -30,10 +30,10 @@ export default function Header() {
                         </a>
                     </li>
                     <li className={styles.navLink}>
-                        <a href="#tecnologies">Tecnologias</a>
+                        <a href="#projects">Projetos</a>
                     </li>
                     <li className={styles.navLink}>
-                        <a href="#projects">Projetos</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -55,9 +55,6 @@ export default function Header() {
                     <nav>
                         <ul className={styles.navLinks}>
                             <li className={styles.navLink}>
-                                <a href="#welcome">Home</a>
-                            </li>
-                            <li className={styles.navLink}>
                                 <a href="#about">Sobre</a>
                             </li>
                             <li className={styles.navLink}>
@@ -65,6 +62,9 @@ export default function Header() {
                             </li>
                             <li className={styles.navLink}>
                                 <a href="#projects">Projetos</a>
+                            </li>
+                            <li className={styles.navLink}>
+                                <a href="#contact">Contato</a>
                             </li>
                         </ul>
                     </nav>
