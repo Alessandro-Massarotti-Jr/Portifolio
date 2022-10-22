@@ -7,3 +7,33 @@
     color:#f2f2f2;
     font-weight: bold;
 }
+
+.form__buttonSubmit{
+    color: #020202;
+    background-color:#83cd29 ;
+    cursor: pointer;
+    font-size: 16px;
+    border:none;
+    border-radius: 3px;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    min-width: 40%;
+    transition: all ease-in-out 0.3s;
+}
+
+.button__icon{
+    margin: 0px 5px;
+}
+
+.form__buttonSubmit:hover{
+ background-color: #76b02f;
+}
+
+@media(max-width:767px){
+    .form__buttonSubmit{
+        width: calc(100% - 12px);
+    }
+}

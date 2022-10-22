@@ -1,14 +1,17 @@
+import { Icon } from "@iconify/react";
 import { useRef } from "react";
 import InputText from "../Form/InputText";
 import TextArea from "../Form/TextArea";
 import styles from "./styles.module.css";
 
 export default function ContactForm() {
+
     const nameRef = useRef(null);
     const emailRef = useRef(null);
     const phoneRef = useRef(null);
     const subjectRef = useRef(null);
     const messageRef = useRef(null);
+
 
     function handleFormSubmit(event) {
         event.preventDefault();
@@ -17,7 +20,7 @@ export default function ContactForm() {
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
-              },
+            },
             body: JSON.stringify({
                 name: nameRef.current.value,
                 email: emailRef.current.value,
@@ -25,6 +28,12 @@ export default function ContactForm() {
                 subject: subjectRef.current.value,
                 message: messageRef.current.value
             })
+        }).then(response => {
+            nameRef.current.value = "";
+            emailRef.current.value = "";
+            phoneRef.current.value = "";
+            subjectRef.current.value = "";
+            messageRef.current.value = "";
         });
 
     }
@@ -38,7 +47,10 @@ export default function ContactForm() {
                 <InputText name="phone" label="Seu telefone" placeholder="digite seu telefone..." ref={phoneRef} required={false} type="text" />
                 <InputText name="subject" label="Assunto (*)" placeholder="digite o assunto..." ref={subjectRef} required={true} type="text" />
                 <TextArea name="message" label="Mensagem (*)" placeholder="digite sua mensagem..." ref={messageRef} required={true} />
-                <button type="submit">enviar</button>
+                <button className={styles.form__buttonSubmit} type="submit">
+                    Enviar
+                    <Icon className={styles.button__icon} icon="bi:send" />
+                </button>
             </form>
         </section>
 
