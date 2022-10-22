@@ -14,3 +14,16 @@
     color:#f2f2f2;
     font-weight: bold;
 }
+
+.mobile__projectCardContainer{
+    display: none;
+}
+
+@media(max-width:767px){
+    .projectCardContainer{
+        display: none;
+    }
+    .mobile__projectCardContainer{
+        display: inherit;
+    }
+}

@@ -151,3 +151,10 @@ border-bottom-left-radius: 170px;
     object-fit: cover;
     border-bottom-left-radius: 170px;
 }
+
+@media(max-width:767px) {
+    .card {
+        margin: 0px;
+        width: 100%;
+    }
+}
