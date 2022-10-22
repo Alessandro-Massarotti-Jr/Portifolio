@@ -1,5 +1,7 @@
 .contact{
-    padding: 0px 30px;
+    padding: 10px 30px;
+    background-color: #383838;
+    border-top: 6px dashed #83cd29;
 }
 
 .sectionTitle{
