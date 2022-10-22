@@ -12,9 +12,7 @@ export default function ContactForm() {
 
     function handleFormSubmit(event) {
         event.preventDefault();
-        console.log(nameRef)
-        console.log("submit")
-        fetch('https://node-mail-system.herokuapp.com/contact', {
+        fetch(`${process.env.REACT_APP_API_URL}/contact`, {
             method: "POST",
             headers: {
                 'Accept': 'application/json',
