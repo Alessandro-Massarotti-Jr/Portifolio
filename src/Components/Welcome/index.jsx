@@ -4,7 +4,7 @@ import styles from "./styles.module.css"
 export default function Welcome() {
     return (
         <section id="welcome" className={styles.welcome}>
-            <div>
+            <div className={styles.info}>
                 <h1 className={styles.name}>Alessandro Massarotti Junior</h1>
                 <span className={styles.title}>Desenvolvedor Javascript</span>
                 <a className={styles.linkedinButton} href="https://www.linkedin.com/in/alessandro-massarotti-jr-71a68b218/">
@@ -23,6 +23,10 @@ export default function Welcome() {
                         <div className={styles.circleContainer__outline3}>
                             <div className={styles.circleContainer__outline4}>
                                 <div className={styles.circle}>
+                                    <div className={styles.profile}>
+                                    <img  src="https://github.com/Alessandro-Massarotti-Jr.png" alt="Github profile" />
+                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
