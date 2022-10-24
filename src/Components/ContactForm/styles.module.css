@@ -4,6 +4,11 @@
     border-top: 6px dashed #83cd29;
 }
 
+.contactForm{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .sectionTitle{
     font-size: 28px;
     color:#f2f2f2;

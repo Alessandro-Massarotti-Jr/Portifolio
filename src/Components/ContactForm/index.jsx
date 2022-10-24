@@ -41,7 +41,7 @@ export default function ContactForm() {
     return (
         <section className={styles.contact} id="contact">
             <h2 className={styles.sectionTitle}>Contato</h2>
-            <form onSubmit={(event) => { handleFormSubmit(event) }}>
+            <form className={styles.contactForm} onSubmit={(event) => { handleFormSubmit(event) }}>
                 <InputText name="name" label="Seu Nome (*)" placeholder="digite seu nome..." ref={nameRef} required={true} type="text" />
                 <InputText name="email" label="Seu Email (*)" placeholder="digite seu email..." ref={emailRef} required={true} type="text" />
                 <InputText name="phone" label="Seu telefone" placeholder="digite seu telefone..." ref={phoneRef} required={false} type="text" />
