@@ -6,6 +6,10 @@
   <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/alessandro-massarotti-Jr/Portifolio?color=232323&style=flat-square">
 </p>
 
+Meu portifolio online
+
+<img src="./src/assets/img/portifolio.png" alt="ScreenShot"/>
+
 ## start guide
 
 Run `npm installl` to install project dependencies
