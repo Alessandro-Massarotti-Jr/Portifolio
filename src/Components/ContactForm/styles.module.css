@@ -6,7 +6,7 @@
 
 .contactForm{
     max-width: 600px;
-    margin: 0 auto;
+    min-width: 600px;
 }
 
 .sectionTitle{
@@ -39,8 +39,21 @@
  background-color: #76b02f;
 }
 
+.contact__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 @media(max-width:767px){
     .form__buttonSubmit{
         width: calc(100% - 12px);
+    }
+    .contactForm{
+        min-width: 0px;
+    }
+    .contact__content{
+        display: block;
     }
 }
