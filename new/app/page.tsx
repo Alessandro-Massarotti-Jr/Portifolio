@@ -3,14 +3,19 @@
 import Image from 'next/image'
 import { Icon } from '@iconify/react'
 import ProjectCard from './components/ProjectCard';
+import { projects } from './config/projects';
 
 export default function Home() {
 
-  const teste = [];
 
-  for (let i = 0; i < 10; i++) {
-    teste.push(<ProjectCard />)
-  }
+
+  const teste = projects.map((project) => {
+
+    return (<ProjectCard project={project} />)
+  })
+
+
+
 
   return (
     <main className="min-h-screen">
@@ -41,7 +46,7 @@ export default function Home() {
       </section>
 
 
-      <section className='w-full bg-gradient-to-b from-gray-900 to-gray-100 p-20 flex flex-wrap justify-center gap-10'>
+      <section className='w-full bg-slate-300  p-20 flex flex-wrap justify-center gap-10'>
         {teste}
       </section>
 
