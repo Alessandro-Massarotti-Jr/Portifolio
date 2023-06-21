@@ -11,7 +11,7 @@ export default function Home() {
 
   const teste = projects.map((project) => {
 
-    return (<ProjectCard project={project} />)
+    return (<ProjectCard key={project.title} project={project} />)
   })
 
 
