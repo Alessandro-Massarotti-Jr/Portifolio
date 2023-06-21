@@ -1,42 +1,34 @@
-# Portifolio
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<p>
-  <img src="https://img.shields.io/badge/made%20by-Alessandro%20Massarotti%20Jr-232323?style=flat-square">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/alessandro-massarotti-Jr/Portifolio?color=232323&style=flat-square">
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/alessandro-massarotti-Jr/Portifolio?color=232323&style=flat-square">
-</p>
+## Getting Started
 
-Meu portifolio online
+First, run the development server:
 
-<img src="./src/assets/img/portifolio.png" alt="ScreenShot"/>
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-## start guide
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Run `npm installl` to install project dependencies
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Run `npm start` to start development server
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Run `npm run build` to make a production version of the project
+## Learn More
 
-## tecnologies
+To learn more about Next.js, take a look at the following resources:
 
- - [Iconify](https://iconify.design/)
- - [Three Js](https://threejs.org/)
- - [React Alice carousel](https://github.com/maxmarinich/react-alice-carousel)
- - [React three fiber](https://github.com/pmndrs/react-three-fiber)
- - [React three drei](https://github.com/pmndrs/drei)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## comandos utilicados
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
+## Deploy on Vercel
 
-`npm i three @react-three/fiber @react-three/drei`
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-`npm i react-alice-carousel`
-
-`npm install --save-dev @iconify/react`
-
-<br>
-
----
-
-Desenvolvido Por [Alessandro Massarotti Jr](https://github.com/alessandro-massarotti-jr) 🤖
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
