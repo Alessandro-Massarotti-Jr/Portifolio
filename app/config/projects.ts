@@ -1,6 +1,7 @@
 import { StaticImageData } from "next/image";
 import ide from "../assets/img/mockups/ide.png"
 import teste from "../assets/img/mockups/teste.png"
+import kogno from "../assets/img/mockups/kogno.png"
 
 export interface IProject {
     title: string;
@@ -29,6 +30,15 @@ projects.push({
     companyUrl: "https://next.tec.br/",
     projectUrl: "https://adamantiun.next.dev.br/",
     description: "Sistema de gestão para vendedores do mercado livre.Realiza calculos de lucro contabilização de vendas e controle de estoque consultando a Api do ML."
+});
+
+projects.push({
+    title: "Portal Kogno",
+    company: "Next Tecnologia",
+    image: kogno,
+    companyUrl: "https://next.tec.br/",
+    projectUrl: "https://portal.kogno.com.br/",
+    description: "Sistema para controle de uma franquia pedagogica, podendo gerenciar seus alunos, monitores, franqueados e unidades. Verificando frequencia e disponibilidade de aulas de cada um deles."
 });
 
 export { projects }
