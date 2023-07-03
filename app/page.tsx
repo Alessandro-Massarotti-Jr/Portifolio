@@ -50,6 +50,10 @@ export default function Home() {
         {teste}
       </section>
 
+      <footer className='flex justify-center gap-1 py-2 bg-slate-400 text-black'>
+        Desenvolvido por <a href="https://github.com/Alessandro-Massarotti-Jr" target='_blank' className='font-bold hover:underline'>Alessandro Massarotti Junior</a>🤖
+      </footer>
+
     </main>
   )
 }

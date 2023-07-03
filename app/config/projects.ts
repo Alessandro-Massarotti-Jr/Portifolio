@@ -2,6 +2,7 @@ import { StaticImageData } from "next/image";
 import ide from "../assets/img/mockups/ide.png"
 import teste from "../assets/img/mockups/teste.png"
 import kogno from "../assets/img/mockups/kogno.png"
+import g20 from "../assets/img/mockups/g20.png"
 
 export interface IProject {
     title: string;
@@ -40,5 +41,15 @@ projects.push({
     projectUrl: "https://portal.kogno.com.br/",
     description: "Sistema para controle de uma franquia pedagogica, podendo gerenciar seus alunos, monitores, franqueados e unidades. Verificando frequencia e disponibilidade de aulas de cada um deles."
 });
+
+projects.push({
+    title: "G20",
+    company: "Next Tecnologia",
+    image: g20,
+    companyUrl: "https://next.tec.br/",
+    projectUrl: "https://next.tec.br/",
+    description: "Sistema para controle de estoque e realização de venda para produtos de Hortifruti"
+});
+
 
 export { projects }
