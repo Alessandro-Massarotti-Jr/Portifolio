@@ -1,6 +1,7 @@
 import { StaticImageData } from "next/image";
 import ide from "../assets/img/mockups/ide.png"
 import teste from "../assets/img/mockups/teste.png"
+import marketMaster from "../assets/img/mockups/market_master.png"
 import kogno from "../assets/img/mockups/kogno.png"
 import g20 from "../assets/img/mockups/g20.png"
 
@@ -27,7 +28,7 @@ projects.push({
 projects.push({
     title: "Market Master",
     company: "Next Tecnologia",
-    image: teste,
+    image: marketMaster,
     companyUrl: "https://next.tec.br/",
     projectUrl: "https://adamantiun.next.dev.br/",
     description: "Sistema de gestão para vendedores do mercado livre.Realiza calculos de lucro contabilização de vendas e controle de estoque consultando a Api do ML."
