@@ -12,6 +12,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
+
       <section className='w-full h-screen bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r p-20 flex items-center gap-10'>
         <div className='flex flex-col gap-2'>
           <h3 className='text-7xl text-white'>Olá, sou Alessandro👋</h3>
@@ -41,30 +42,25 @@ export default function Home() {
             return (<ProjectCard key={project.title} project={project} />)
           })}
         </div>
-
       </section>
 
-      <section className='w-full bg-gray-500  p-10'>
-
-        <h2 className="text-white text-2xl font-bold text-center">Conhecimentos</h2>
-
-        <div className='flex w-full'>
-          <div className='flex gap-2 flex-wrap justify-center w-full'>
-            <KnowledgeList knowages={knowages} type='language' title='Linguagens' />
-            <KnowledgeList knowages={knowages} type='framework' title='Frameworks' />
-            <KnowledgeList knowages={knowages} type='database' title='Banco de Dados' />
-            <KnowledgeList knowages={knowages} type='server' title='Servidores' />
-            <KnowledgeList knowages={knowages} type='tools' title='Ferramentas' />
-            <KnowledgeList knowages={knowages} type='ORM' title='ORMs' />
-            <KnowledgeList knowages={knowages} type='styles' title='Estilização' />
-          </div>
-
+      <section className='w-full bg-gray-500  p-10 flex flex-col items-center'>
+        <h2 className="text-white text-2xl font-bold">Conhecimentos</h2>
+        <div className='flex gap-2 flex-wrap justify-start'>
+          <KnowledgeList knowages={knowages} type='language' title='Linguagens' />
+          <KnowledgeList knowages={knowages} type='framework' title='Frameworks' />
+          <KnowledgeList knowages={knowages} type='database' title='Banco de Dados' />
+          <KnowledgeList knowages={knowages} type='server' title='Servidores' />
+          <KnowledgeList knowages={knowages} type='tools' title='Ferramentas' />
+          <KnowledgeList knowages={knowages} type='ORM' title='ORMs' />
+          <KnowledgeList knowages={knowages} type='styles' title='Estilização' />
         </div>
       </section>
 
       <footer className='flex justify-center gap-1 py-2 bg-slate-400 text-black'>
         Desenvolvido por <a href="https://github.com/Alessandro-Massarotti-Jr" target='_blank' className='font-bold hover:underline'>Alessandro Massarotti Junior</a>🤖
       </footer>
+
     </main>
   )
 }
