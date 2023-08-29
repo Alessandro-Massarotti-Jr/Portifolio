@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='w-full bg-gray-500  p-10 flex flex-col items-center'>
+      <section className='w-full bg-gray-800  p-10 flex flex-col items-center'>
         <h2 className="text-white text-2xl font-bold">Conhecimentos</h2>
         <div className='flex gap-2 flex-wrap justify-start'>
           <KnowledgeList knowages={knowages} type='language' title='Linguagens' />
