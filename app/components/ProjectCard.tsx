@@ -1,5 +1,4 @@
 import Image from "next/image";
-import teste from "../assets/img/mockups/teste.png";
 import { IProject } from "../config/projects";
 
 
