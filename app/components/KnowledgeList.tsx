@@ -19,7 +19,7 @@ export default function KnowledgeList({ knowages, type, title }: IKnowageItemPro
             <h3 className="text-white text-lg font-bold">{title}</h3>
             <ul className="flex flex-col gap-2 list-disc">
                 {currentItems.map((knowage) => {
-                    return (<KnowledgeItem knowage={knowage} />);
+                    return (<KnowledgeItem key={knowage.title} knowage={knowage} />);
                 })}
             </ul>
         </div>
