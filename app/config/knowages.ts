@@ -168,6 +168,27 @@ knowages.push({
     type: "tools"
 });
 
+knowages.push({
+    title: "Docker",
+    icon: "vscode-icons:file-type-docker",
+    link: "https://www.docker.com/",
+    type: "tools"
+});
+
+knowages.push({
+    title: "Kafka",
+    icon: "skill-icons:kafka",
+    link: "https://kafka.apache.org/",
+    type: "tools"
+});
+
+knowages.push({
+    title: "RabbitMQ",
+    icon: "skill-icons:rabbitmq-dark",
+    link: "https://www.rabbitmq.com/",
+    type: "tools"
+});
+
 // Server
 
 knowages.push({

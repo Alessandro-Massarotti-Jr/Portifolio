@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
 
-      <section className='w-full h-screen bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r p-20 flex items-center gap-10'>
+      <section className='w-full h-screen bg-gradient-to-r from-gray-900 to-gray-600  p-20 flex items-center gap-10'>
         <div className='flex flex-col gap-2'>
           <h3 className='text-7xl text-white'>Olá, sou Alessandro👋</h3>
           <h1 className='text-9xl text-white'><span className='text-[#83cd29] font-bold'>Backend</span> Developer</h1>
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='w-full bg-gray-800  p-10 flex flex-col items-center'>
+      <section className='w-full bg-gradient-to-r to-gray-900 from-gray-600  p-10 flex flex-col items-center'>
         <h2 className="text-white text-2xl font-bold">Conhecimentos</h2>
         <div className='flex gap-2 flex-wrap justify-start'>
           <KnowledgeList knowages={knowages} type='language' title='Linguagens' />
