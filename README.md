@@ -9,7 +9,7 @@
 
 Meu portifolio online
 
-<img src="./screenShot.png" alt="ScreenShot"/>
+<img src="./screenshot.png" alt="ScreenShot"/>
 
 ## start guide
 
