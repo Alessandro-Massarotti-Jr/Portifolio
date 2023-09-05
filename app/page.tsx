@@ -14,11 +14,11 @@ export default function Home() {
   return (
     <main className="min-h-screen">
 
-      <section className='w-full h-screen bg-gradient-to-r from-gray-900 to-gray-600  p-20 flex items-center gap-10'>
+      <section className='w-full h-screen bg-gradient-to-r from-gray-900 to-gray-600  p-5 md:p-20 flex items-center gap-10'>
         <div className='flex flex-col gap-2'>
-          <h3 className='text-7xl text-white'>Olá, sou Alessandro👋</h3>
-          <h1 className='text-9xl text-white'><span className='text-[#83cd29] font-bold'>Backend</span> Developer</h1>
-          <div className='flex items-center gap-4 justify-between'>
+          <h3 className=' text-5xl md:text-7xl text-white text-center md:text-start'>Olá, sou Alessandro👋</h3>
+          <h1 className=' text-7xl md:text-9xl text-white text-center md:text-start'><span className='text-[#83cd29] font-bold'>Backend</span> Developer</h1>
+          <div className='flex flex-col text-center md:text-start md:flex-row items-center gap-4 xl:justify-between'>
             <p className='max-w-xl text-white'>Trabalho na área desde 2021, minha especialidade é o desenvolvimento de aplicações backend utilizando <a href='https://nodejs.org/' target='_blank' className='text-[#83cd29] font-bold'>Node.js</a>, mas tambem sei atuar com o desenvolvimento frontend utilizando <a href='https://react.dev/' target='_blank' className='text-[#61dafb] font-bold'>React.js</a> e <a href='https://nextjs.org/' target='_blank' className='text-[#adadad] font-bold'>Next.js</a></p>
             <div className='flex gap-2'>
               <a title='Linkedin' className="text-2xl transition-colors text-white p-3 text-center border-4 border-white rounded-full hover:bg-white hover:text-[#0a66c2]" target='_blank' href="https://www.linkedin.com/in/alessandro-massarotti-jr">
