@@ -47,7 +47,7 @@ projects.push({
     company: "Next Tecnologia",
     image: g20,
     companyUrl: "https://next.tec.br/",
-    projectUrl: "https://next.tec.br/",
+    projectUrl: "https://play.google.com/store/apps/details?id=com.g.vinte.g_20",
     description: "Sistema para controle de estoque e realização de venda para produtos de Hortifruti"
 });
 
