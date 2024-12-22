@@ -13,6 +13,18 @@ Meu portifolio online
 
 ## start guide
 
+### Docker
+
+```bash
+# build image
+docker build -t portifolio:1.0.0 .
+
+# setup container
+docker run -d -p 3000:3000 --name portifolio portifolio:1.0.0
+```
+
+### from Scratch
+
 ```bash
 # Install project dependencies
 npm install
