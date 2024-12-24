@@ -7,13 +7,21 @@
   <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/alessandro-massarotti-Jr/Portifolio?color=232323&style=flat-square">
 </p>
 
-Meu portifolio online
+Este projeto tem uma proposta bem simples de ser um portifolio digital com alguns de meus projetos
 
 <img src="./screenshot.png" alt="ScreenShot"/>
 
 ## start guide
 
 ### Docker
+
+#### Dev
+
+```bash 
+docker compose up
+```
+
+#### production image
 
 ```bash
 # build image
@@ -29,11 +37,14 @@ docker run -d -p 3000:3000 --name portifolio portifolio:1.0.0
 # Install project dependencies
 npm install
 
-# Start aplication
+# Start dev application
 npm run dev 
 
 # make a production version of the project
 npm run build 
+
+# start application
+npm start
 ```
 
 ## tecnologies
